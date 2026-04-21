@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 .image-overlay {
 position: absolute;
 top: 60px;
@@ -17,14 +18,17 @@ font-style: italic;
 z-index: 2;
 pointer-events: none;
 }
+
 main {
 margin: auto;
 padding: 10px;
 width: 800px;
 }
+
 .hero {
 position: relative;
 }
+
 body {
 	font-family: Georgia, serif;
 	background-color: #f7f2ea;
