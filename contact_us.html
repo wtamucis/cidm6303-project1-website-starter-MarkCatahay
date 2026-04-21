@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Houston</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <nav class="navbar navbar-expand-lg navbar-dark my-navbar fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Houston</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="attractions.html">Attractions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="foods.html">Food</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact_us.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="image-overlay">ChatGPT-generated image</div>
+        <div class="hero-text">
+            <h1>We'd love to hear from you!</h1>
+        </div>
+    </header>
+
+    <section class="links-bar">
+        <div class="partner-links">
+            <a href="https://spacecenter.org/" target="_blank">
+                <img src="images/rocket.png" alt="Rocket icon">
+                <h3>Space Center Houston</h3>
+            </a>
+            <p>Experience space exploration</p>
+        </div>
+
+        <div class="partner-links">
+            <a href="https://www.houstonzoo.org/" target="_blank">
+                <img src="images/zoo.png" alt="Zoo icon">
+                <h3>Houston Zoo</h3>
+            </a>
+            <p>Fun for the whole family</p>
+        </div>
+
+        <div class="partner-links">
+            <a href="https://www.simon.com/mall/the-galleria" target="_blank">
+                <img src="images/shops.png" alt="Shopping icon">
+                <h3>The Galleria</h3>
+            </a>
+            <p>Shop and dine in style</p>
+        </div>
+    </section>
+
+    <main>
+    <div class="form-card">
+    <form method="post" action="https://www.w3schools.com/action_page.php">
+      <div class="grid">
+        <div>
+          <h3 class="section-title-form">1. What are you contacting us about? <span class="required">*</span></h3>
+          <div class="radio-group">
+            <label class="option"><input type="radio" name="contact-topic" checked> General Inquiry</label>
+            <label class="option"><input type="radio" name="contact-topic"> Tourist Information</label>
+            <label class="option"><input type="radio" name="contact-topic"> Event Information</label>
+            <label class="option"><input type="radio" name="contact-topic"> Partnership / Business</label>
+            <label class="option"><input type="radio" name="contact-topic"> Other</label>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="section-title-form">2. What are you interested in? (Select all that apply)</h3>
+          <div class="checkbox-columns">
+            <div class="checkbox-group">
+              <label class="option"><input type="checkbox" checked> Attractions</label>
+              <label class="option"><input type="checkbox" checked> Events</label>
+              <label class="option"><input type="checkbox" checked> Dining / Restaurants</label>
+              <label class="option"><input type="checkbox" checked> Hotels / Accommodations</label>
+              <label class="option"><input type="checkbox"> Shopping</label>
+            </div>
+            <div class="checkbox-group">
+              <label class="option"><input type="checkbox"> Nightlife</label>
+              <label class="option"><input type="checkbox"> Transportation</label>
+              <label class="option"><input type="checkbox"> Relocation</label>
+              <label class="option"><input type="checkbox"> Other</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="left-stack">
+          <div class="field-block">
+            <label class="field-label" for="hear-about">3. Where did you hear about us? <span class="required">*</span></label>
+            <select id="hear-about" required>
+              <option value="" selected>Select an option</option>
+              <option>Google</option>
+              <option>Social Media</option>
+              <option>Friend or Family</option>
+              <option>School</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+          <div class="field-block">
+            <label class="field-label" for="name">4. Your Name <span class="required">*</span></label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+          </div>
+
+          <div class="field-block">
+            <label class="field-label" for="email">5. Email Address <span class="required">*</span></label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+          </div>
+        </div>
+
+        <div class="message-block">
+          <label class="field-label" for="message">6. Your Message <span class="required">*</span></label>
+          <textarea id="message" placeholder="Write your message here..." required></textarea>
+        </div>
+      </div>
+
+      <div class="button-wrap">
+        <button type="submit" class="send-btn">
+          <span>✈</span>
+          <span>SEND MESSAGE</span>
+        </button>
+      </div>
+    </form>
+
+    <div class="footer-note">
+      ⓘ We aim to respond to all messages within 24-48 hours. Thank you!
+    </div>
+  </div>
+  <div class="list-types">
+            <hr>
+            <section>
+            <h2>Quick Facts About Houston Food</h2>
+            <ul>
+              <li><b>Houston</b> is home to over <i>10,000</i> restaurants.</li>
+              <li>The city’s food scene is known for its <b>diversity</b> and <i>innovation</i>.</li>
+              <li>Many local dishes blend <b>Texan</b> and <i>international</i> flavors.</li>
+            </ul>
+            <h3>Top 3 Must-Try Foods</h3>
+            <ol>
+              <li><b>Brisket</b> – Slow-cooked and smoky, a Texas classic.</li>
+              <li><i>Vermicelli Bowls</i> – A Vietnamese favorite in Houston.</li>
+              <li><b>Fajitas</b> – Sizzling Tex-Mex served with fresh tortillas.</li>
+            </ol>
+        </section>
+        <hr>
+        </div>
+    </main>
+    
+    <footer>
+        <img src="images/footer.png" alt="Houston skyline footer">
+    </footer>
+
+</body>
+</html>
